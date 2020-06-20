@@ -1,1 +1,1 @@
-All the solutions of my peer graded assignment
+ Solutions of my peer graded assignment
