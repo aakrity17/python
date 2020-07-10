@@ -5,6 +5,7 @@ import re
 import sys
 
 def Calculate(arr,i,j):
+    
     a=arr[i][j]
     b=arr[i][j+1]
     c=arr[i][j+2]
@@ -18,7 +19,9 @@ if __name__ == "__main__":
     arr=[]
     for _ in range(6):
         arr.append(list(map(int,input().split())))
+        #we need the max positive sum of the hourglass
     res=[]
+    #we are going taking three elements in a row at a time so range is arr-2 else it will be ArrayoutofBound Exception
     for i in range(len(arr)-2):
         for j in range(len(arr)-2):
             sum=Calculate(arr,i,j)
