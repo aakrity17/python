@@ -13,5 +13,5 @@ if __name__=='__main__':
             d.pop()
         elif list[0]=="popleft":
             d.popleft()
-            #the answer will be in the form of the list so to print the answer without list use *
+            #the answer will be in the form of the list so to print the answer without list use (*)
     print(*d)
